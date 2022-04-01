@@ -17,11 +17,11 @@ resource "azurerm_virtual_network" "Virtual_Network" {
   location            = data.azurerm_resource_group.rg.location
   address_space       = ["10.0.0.0/16"]
 
- subnet {
+  subnet {
     name           = "nellysubnet"
     address_prefix = "10.0.1.0/24"
   }
-  
+
   subnet {
     name           = "angelnav"
     address_prefix = "10.0.2.0/24"
