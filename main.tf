@@ -26,6 +26,9 @@ resource "azurerm_virtual_network" "Virtual_Network" {
     name           = "angelnav"
     address_prefix = "10.0.2.0/24"
   }
+
+  subnet {
+    name           = "moisessubnet"
+    address_prefix = "10.0.3.0/24"
+  }
 }
-
-
