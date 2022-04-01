@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #variables
-SUB_ID="12bdbb86-d686-426f-84a7-c48ed963deaf"
-RG_NAME="TF-RG"
-STORAGE_ACCOUNT_NAME="storageaccount32432"
-CONTAINER_NAME="tfstate-container"
+SUB_ID="<>"
+RG_NAME="<>"
+STORAGE_ACCOUNT_NAME="<>"
+CONTAINER_NAME="<>"
 
 # Create storage account
 
